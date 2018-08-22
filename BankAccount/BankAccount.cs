@@ -4,6 +4,12 @@ public class BankAccount
     private int id;
     private double balance;
 
+    public BankAccount()
+    {
+        this.Balance = balance;
+        this.ID = id;
+    }
+
     public int ID
     {
         get { return this.id; }
